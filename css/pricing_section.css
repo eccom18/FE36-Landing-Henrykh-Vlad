@@ -1,0 +1,62 @@
+#pricing_section {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 80px 0;
+}
+.pricing_description {
+  margin-bottom: 62px;
+}
+.pricing_description p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+  text-align: center;
+}
+.pricing_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  width: 340px;
+}
+.list_item--plan {
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2px;
+  background-color: #333333;
+  color: #ffffff;
+}
+.list_item--price {
+  text-align: center;
+  line-height: 100px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 2px;
+  background-color: #333333;
+  color: #ffffff;
+}
+.list_item--discription {
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Open sans';
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 2px;
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.5);
+}
+.list_item--options {
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Open sans';
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 2px;
+  background-color: #ffffff;
+  color: #86878b;
+}
