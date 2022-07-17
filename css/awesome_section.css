@@ -15,9 +15,11 @@
 .awesome_wrap {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .card {
   width: 350px;
+  margin: 0 15px;
 }
 .card_content {
 }

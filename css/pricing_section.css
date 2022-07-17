@@ -16,9 +16,11 @@
 .pricing_wrap {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .column {
   width: 340px;
+  margin: 0 15px;
 }
 .list_item--plan {
   text-align: center;
