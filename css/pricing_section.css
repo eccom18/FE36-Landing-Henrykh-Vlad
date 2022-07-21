@@ -15,6 +15,7 @@
 }
 .pricing_wrap {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -15px;
 }
@@ -62,3 +63,6 @@
   background-color: #ffffff;
   color: #86878b;
 }
+/* .column :last-child {
+  margin-bottom: 0px;
+} */
