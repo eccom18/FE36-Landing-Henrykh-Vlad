@@ -22,6 +22,7 @@
 .column {
   width: 340px;
   margin: 0 15px;
+  box-shadow: 0 0 20px;
 }
 .column :last-child {
   margin-bottom: 0;
