@@ -54,6 +54,7 @@
   display: block;
 }
 .link_dowload:hover {
+  border: 1px rgba(27, 24, 24, 0.507) solid;
   transition: 0.2s;
   background-color: rgba(27, 24, 24, 0.507);
 }

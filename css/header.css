@@ -26,18 +26,21 @@
   content: 'IT';
   font-size: 30px;
   font-weight: 400;
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   color: #ec7979;
   display: inline-block;
 }
-.navigation {
+.header_navigation {
+  width: 489px;
   margin: 0 15px;
 }
 .navigation_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .navigation_list--item {
-  display: inline-block;
-  margin: 0 24px;
+  margin: 5px;
 }
 .navigation_list--item a {
   text-transform: capitalize;
@@ -50,4 +53,7 @@
 .navigation_list--item a:hover {
   transition: 0.5s;
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+.navigation_list--item:hover {
+  transform: translate(0, -3px);
 }
