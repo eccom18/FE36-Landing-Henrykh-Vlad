@@ -81,6 +81,11 @@
   border: 1px #ffffff solid;
   text-align: center;
 }
+.feautures_dowload:hover {
+  border: 1px rgba(0, 0, 0, 0.45) solid;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.719);
+}
 .right_wrap {
   width: 370px;
   margin: 0 15px;
