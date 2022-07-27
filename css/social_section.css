@@ -45,3 +45,38 @@
   color: #86878b;
   font-size: 42px;
 }
+.social_facebook:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #3b5998;
+}
+.social_twitter:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #00acee;
+}
+.social_google:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #ea4335;
+}
+.social_pinterest:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #bd081c;
+}
+.social_instagram:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #c32aa3;
+}
+.social_stumbleupon:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #e94826;
+}
+.social_rss:hover {
+  transition: 0.5s;
+  transform: scale(1.2) rotate(365deg) translate(-20px);
+  color: #ce690a;
+}

@@ -17,7 +17,7 @@
           <nav class="header_navigation">
             <ul class="navigation_list">
               <li class="navigation_list--item">
-                <a href="#">feautures</a></li>
+                <a href="#feautures_section">feautures</a></li>
               <li class="navigation_list--item">
                 <a href="#awesome_section">about</a></li>
               <li class="navigation_list--item">
@@ -27,13 +27,48 @@
                 <a href="#customers_section">reviews</a>
               </li>
               <li class="navigation_list--item">
-                <a href="#">contact</a>
+                <a href="#contact_section">contact</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
+    <section id="feautures_section">
+      <div class="container">
+        <div class="feautures_wrap">
+          <div class="left_wrap">
+          <h1 class="feautures_heading"> <span>AX</span> MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+          <div class="feautures_description">
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</span>
+          </div>
+          <div class="feautures_link">
+            <a href="#" class="feautures_dowload">Dowload</a>
+          </div>
+          </div>
+          <div class="right_wrap">
+            <form action="index.html" method="post" class="feautures_form">
+              <div class="form_content">
+              <h3 class="form_content-heading"> <span class="firs_half">Try Your</span> <span class="second_half"> Trial Today</span></h3>
+              <div class="form_content-item">
+                <label for="UserName">Name</label>
+                <input type="text" class="form_content-input" id="UserName" name="UserName" required minlength="3" maxlength="15">
+              </div>
+              <div class="form_content-item">
+                <label for="Email">Email</label>
+                <input type="email" class="form_content-input" id="Email" name="Email" required minlength="6" maxlength="15">
+              </div>
+              <div class="form_content-item">
+                <label for="Password">Password</label>
+                <input type="password" class="form_content-input" id="Password" name="Password" required minlength="6" maxlength="15">
+              </div>
+              </div>
+              <button type="submit" class="features_form-button">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="social_section">
       <div class="container">
         <div class="social_wrap">
@@ -47,19 +82,19 @@
           <nav class="social_navigation">
             <ul class="social_navigation-list">
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook-f social_facebook"></i></a></li>
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+              <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-twitter social_twitter"></i></a></li>
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://plus.google.com/"target="_blank"><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <a href="https://plus.google.com/"target="_blank"><i class="fa-brands fa-google-plus-g social_google"></i></a></li>
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://www.pinterest.ru/"target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+              <a href="https://www.pinterest.ru/"target="_blank"><i class="fa-brands fa-pinterest social_pinterest"></i></a></li>
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+              <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram-square social_instagram"></i></a></li>
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://www.stumbleupon.com/"target="_blank"><i class="fa-brands fa-stumbleupon"></i></a></li>
+              <a href="https://www.stumbleupon.com/"target="_blank"><i class="fa-brands fa-stumbleupon social_stumbleupon"></i></a></li>
               <li class="social_navigation-list social_navigation-list--item">
-              <a href="https://rss.com/"target="_blank"><i class="fa-solid fa-rss"></i></a></li>
+              <a href="https://rss.com/"target="_blank"><i class="fa-solid fa-rss social_rss"></i></a></li>
             </ul>
           </nav>
         </div>
@@ -246,25 +281,57 @@
         </div>
       </div>
     </section>
+    <section id="contact_section">
+      <div class="container">
+        <h2 class="title">contact us</h2>
+        <div class="contact_description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <form action="index.html" method="post" class="contact_form">
+          <div class="contact_form-content">
+            <div class="content_form-left">
+              <div class="contet_form-left contet_form-left--item">
+                <label for="userName_contactForm">Name</label>
+                <input type="text" class="contact_input" id="userName_contactForm" name="userName_contactForm" required minlength="3" maxlength="15">
+              </div>
+              <div class="contet_form-left contet_form-left--item">
+                <label for="email_contactForm">Email</label>
+                <input type="email" class="contact_input" id="email_contactForm" name="email_contactForm" required minlength="3" maxlength="15">
+              </div>
+              <div class="contet_form-left contet_form-left--item">
+                <label for="password_contactForm">Password</label>
+                <input type="password" class="contact_input" id="password_contactForm" name="password_contactForm" required minlength="3" maxlength="15">
+              </div>
+            </div>
+            <div class="content_form-right">
+              <label for="textarea_contactForm">Message</label>
+              <textarea name="textarea_contactForm" id="textarea_contactForm" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="contact_form-button">Send Message
+          </button>
+        </form>
+      </div>
+    </section>
     <footer id="footer">
       <div class="container">
         <div class="footer_wrap">
           <nav class="navigation_footer">
             <ul class="navigation_footer-list">
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook-f footer_facebook"></i></a></li>
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+              <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-twitter footer_twitter"></i></a></li>
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://plus.google.com/"target="_blank"><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <a href="https://plus.google.com/"target="_blank"><i class="fa-brands fa-google-plus-g footer-google"></i></a></li>
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://www.pinterest.ru/"target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+              <a href="https://www.pinterest.ru/"target="_blank"><i class="fa-brands fa-pinterest footer_pinterest"></i></a></li>
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+              <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram-square footer_instagram"></i></a></li>
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://www.stumbleupon.com/"target="_blank"><i class="fa-brands fa-stumbleupon"></i></a></li>
+              <a href="https://www.stumbleupon.com/"target="_blank"><i class="fa-brands fa-stumbleupon footer_stumbleupon"></i></a></li>
               <li class="navigation_footer-list navigation_footer-list--item"> 
-              <a href="https://rss.com/"target="_blank"><i class="fa-solid fa-rss"></i></a></li>
+              <a href="https://rss.com/"target="_blank"><i class="fa-solid fa-rss footer_rss"></i></a></li>
             </ul>
           </nav>
           <div class="footer_discription">
