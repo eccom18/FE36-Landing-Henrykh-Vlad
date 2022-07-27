@@ -22,6 +22,10 @@
 .column {
   width: 340px;
   margin: 0 15px;
+  box-shadow: 0 0 20px;
+}
+.column :last-child {
+  margin-bottom: 0;
 }
 .list_item--plan {
   text-align: center;
@@ -63,6 +67,3 @@
   background-color: #ffffff;
   color: #86878b;
 }
-/* .column :last-child {
-  margin-bottom: 0px;
-} */
