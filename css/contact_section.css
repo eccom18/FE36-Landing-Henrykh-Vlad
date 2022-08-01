@@ -15,14 +15,12 @@
 .contact_form {
 }
 .contact_form-content {
-  margin: 0 -15px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 69px;
-  flex-wrap: wrap;
 }
 .content_form-left {
-  margin: 0 15px;
+  margin: 0 222px 0 15px;
   width: 478px;
 }
 .content_form-left :last-child {

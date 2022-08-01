@@ -15,7 +15,7 @@
 }
 .pricing_wrap {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   margin: 0 -15px;
 }
