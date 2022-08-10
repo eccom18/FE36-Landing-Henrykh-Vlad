@@ -26,7 +26,7 @@
 }
 .left_wrap {
   margin: 0 15px;
-  width: 544px;
+  max-width: 544px;
 }
 .feautures_heading span {
   font-family: 'Roboto';
@@ -60,10 +60,10 @@
   margin: 32px 0 39px;
 }
 .feautures_description {
-  width: 282px;
+  max-width: 282px;
   margin-bottom: 39px;
 }
-.feautures_description span {
+.feautures_description p {
   font-family: 'Raleway';
   font-size: 16px;
   font-weight: 300;
@@ -87,7 +87,7 @@
   background-color: rgba(0, 0, 0, 0.719);
 }
 .right_wrap {
-  width: 370px;
+  max-width: 370px;
   margin: 0 15px;
 }
 .form_content {
@@ -138,7 +138,7 @@
   line-height: 16px;
 }
 .features_form-button {
-  width: 370px;
+  width: 100%;
   line-height: 54px;
   font-family: 'Open Sans';
   font-weight: 600;

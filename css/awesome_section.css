@@ -19,7 +19,7 @@
   flex-wrap: wrap;
 }
 .card {
-  width: 350px;
+  max-width: 350px;
   margin: 0 15px;
 }
 .card_content {

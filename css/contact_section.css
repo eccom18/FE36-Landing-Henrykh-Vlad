@@ -20,8 +20,8 @@
   margin-bottom: 69px;
 }
 .content_form-left {
-  margin: 0 222px 0 15px;
-  width: 478px;
+  margin: 0 15px;
+  width: 40%;
 }
 .content_form-left :last-child {
   margin-bottom: 0;
@@ -44,7 +44,7 @@
   line-height: 36px;
 }
 .content_form-right {
-  width: 478px;
+  width: 40%;
   margin: 0 15px;
 }
 .content_form-right label {

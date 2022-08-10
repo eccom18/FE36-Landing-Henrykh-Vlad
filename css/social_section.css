@@ -10,7 +10,7 @@
   align-items: center;
 }
 .social_wrap_left {
-  width: 365px;
+  max-width: 365px;
   margin: 0 15px;
 }
 .social_title {
@@ -39,7 +39,6 @@
   flex-wrap: wrap;
 }
 .social_navigation-list--item {
-  margin: 5px;
 }
 .social_navigation-list--item a {
   color: #86878b;
